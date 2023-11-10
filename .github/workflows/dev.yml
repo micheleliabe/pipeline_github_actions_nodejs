@@ -45,7 +45,7 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            micheldiasdocker/lab-git-actions:v1
+            micheldiasdocker/lab-git-actions:${{github.run_number}}
             micheldiasdocker/lab-git-actions:latest
 
             
